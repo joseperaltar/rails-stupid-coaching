@@ -1,0 +1,13 @@
+<div class="container mt-5">
+  <div class="p-2 border-start border-5">
+    <p class=" fs-4"><%= @question %></p>
+    <p class="blockquote-footer fs-4">You</p>
+  </div>
+
+  <div class="bg-warning bg-opacity-25 p-2 border-start border-5 mt-5">
+    <p class=" fs-4 fw-semibold"><%= @answer %></p>
+    <p class="blockquote-footer fs-4">Coach</p>
+  </div>
+
+  <%= link_to "Ask another question", home_path, class:"mt-2 d-block"%>
+</div>
